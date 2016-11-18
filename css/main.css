@@ -1,0 +1,109 @@
+
+/*General*/
+
+li{
+  color:black;
+}
+
+a{
+  color:black;
+}
+
+.space{
+  padding-top: 5%;
+}
+
+.banner1{
+  padding: 10%;
+}
+
+/*Carrusel texto*/
+
+.carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left: -33%; }
+.carousel-inner .prev        { left: -33%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
+.item:not(.prev) {visibility: visible;}
+.item.right:not(.prev) {visibility: hidden;}
+.rightest{ visibility: visible;}
+
+.carousel-control{
+  padding-right: 40%;
+}
+
+.item{
+  text-align: center;
+}
+
+.images{
+  padding: 10%;
+}
+
+/*Marcas*/
+
+.bg-brands{
+  background-color: #151515;
+  width: 100%;
+  height: 200px;
+}
+
+.img-clients{
+  padding:5%;
+}
+
+/*Blog*/
+
+.img-blog{
+  width: 10
+}
+
+/*Información del contacto, información acerca de la página, extras y dirección de la tienda*/
+
+.datos{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.glyphicon{
+  font-size: 150%;
+}
+
+/* Footer */
+
+footer{
+  background-color: #151515;
+  width: 100%;
+  color:white; 
+}
+
+.payment{
+  width: 35%;
+  padding: 1%;
+}
+
+@media screen and (max-width : 920px) {
+  
+  .winter-l{
+    font-size: 1em;
+  }
+
+   .collection{
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .winter-l{
+    font-size: 1em;
+  }
+
+  .collection{
+    font-size: 1em;
+  }
+
+  form{
+    width: 70%;
+    padding: 5%;
+  }
+}
